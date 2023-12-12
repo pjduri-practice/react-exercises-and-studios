@@ -1,7 +1,7 @@
 import styles from './Description.module.css'
 import React from 'react'
 
-export default function() {
+export default function RecipeAuthor() {
     const authorLink = 'https://panlasangpinoy.com/about-2/'
     const authorPhoto = 
         'https://panlasangpinoy.com/wp-content/uploads/2020/03/Vanjo-Merano-Panlasang-Pinoy.jpg'
