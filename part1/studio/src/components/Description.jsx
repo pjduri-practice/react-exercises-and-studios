@@ -1,7 +1,7 @@
 import styles from './Description.module.css'
 import React from 'react'
 
-export default function RecipeAuthor() {
+const RecipeAuthor = () => {
     const authorLink = 'https://panlasangpinoy.com/about-2/'
     const authorPhoto = 
         'https://panlasangpinoy.com/wp-content/uploads/2020/03/Vanjo-Merano-Panlasang-Pinoy.jpg'
@@ -16,4 +16,18 @@ export default function RecipeAuthor() {
             </div>
         </div>
     )
+}
+
+export default class RecipeDescription extends React.Component {
+    render() {
+        return (
+            <div>
+                <div>
+                    <h1>Pork Adobo</h1>
+                    <p>My own personal comfort food, filled with memories of my childhood.</p>
+                </div>
+                <RecipeAuthor />
+            </div>
+        )
+    }
 }
