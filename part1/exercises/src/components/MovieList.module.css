@@ -1,5 +1,7 @@
 .movieText {
-   color: black;
+   color: red;
+   text-align: left;
+   font-size: 1rem;
 }
 
 .movieHeading {
