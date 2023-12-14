@@ -1,9 +1,5 @@
-import recipedata from "./recipe.json";
-
-function RecipeName() {
-  return recipedata;
+function RecipeName({ recipeName }) {
+  return <h1>{recipeName}</h1>
 }
 
-export default RecipeName;
-
-//import return the name of the recipe as a level 1 header
+export default RecipeName
