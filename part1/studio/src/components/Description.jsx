@@ -18,7 +18,7 @@ const RecipeAuthor = () => {
     )
 }
 
-export default class RecipeDescription extends React.Component {
+class RecipeDescription extends React.Component {
     render() {
         return (
             <div>
@@ -31,3 +31,5 @@ export default class RecipeDescription extends React.Component {
         )
     }
 }
+
+export default RecipeDescription

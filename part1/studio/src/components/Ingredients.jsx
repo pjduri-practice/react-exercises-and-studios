@@ -14,7 +14,6 @@ export default function RecipeIngredients() {
     ]
 
     return (
-        <>
             <div>
                 <h3>Recipe Ingredients</h3>
                 <ul className={styles.ingredientList}>
@@ -28,7 +27,6 @@ export default function RecipeIngredients() {
                     <li>{ingredients[7]}</li>
                 </ul>
             </div>
-        </>
     )
 
 }
