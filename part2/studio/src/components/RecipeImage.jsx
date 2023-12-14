@@ -1,8 +1,7 @@
 import './styling.css'
-import recipe from './recipe.json'
 
-function RecipeImage() {
-   return <img className="recipeImage" src={recipe[0].recipeImage} alt="Recipe Image" />
- }
- 
- export default RecipeImage
+function RecipeImage({ image }) {
+  return <img className="recipeImage" src={image} alt="Recipe Image" />
+}
+
+export default RecipeImage

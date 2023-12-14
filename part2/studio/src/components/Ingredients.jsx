@@ -1,11 +1,9 @@
-import recipe from './recipe.json'
-
-function IngredientList() {
+function IngredientList({ ingredients }) {
   return (
     <div>
       <h3>Ingredients</h3>
       <ul>
-        {recipe[0].ingredients.map((ingredient, id) => <li key={id}>{ingredient}</li>)}
+        {ingredients.map((ingredient, id) => <li key={id}>{ingredient}</li>)}
       </ul>
     </div>
   )

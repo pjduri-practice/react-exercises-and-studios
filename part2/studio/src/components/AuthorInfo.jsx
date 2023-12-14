@@ -1,11 +1,10 @@
 import './styling.css'
-import recipe from './recipe.json'
 
-function AuthorInfo() {
+function AuthorInfo({ author, image, website }) {
 
-  const authorImage = <img className='authorImage' src={recipe[0].authorImage} alt={recipe[0].author} key={recipe[0].author} />
-  const authorName = <h4 key={recipe[0].author}>{recipe[0].author}</h4>
-  const recipeWebsite = <a target='_blank' href={recipe[0].website}>View the full recipe!</a>
+  const authorImage = <img className='authorImage' src={image} alt={author} key={author} />
+  const authorName = <h4 key={author}>{author}</h4>
+  const recipeWebsite = <a target='_blank' href={website}>View the full recipe!</a>
 
    return <div>
     {authorImage}
