@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Very First Show",
+        "imageUrl": "https://stl-lc101-may-2022.github.io/js-assignment-4-html-me-something-pjduri/images/firstPoiWithAudience.jpg",
+        "notes": "This was my very first gig - an outdoor festival somewhere in central MO.  I'd say I did fairly well for my first audience."
+    },
+    {
+        "name": "I Performed at Six Flags!",
+        "imageUrl": "https://stl-lc101-may-2022.github.io/js-assignment-4-html-me-something-pjduri/images/sixFlagsSpin.jpg",
+        "notes": "Many thanks to the other performers and safety crew of Pyrogeist for being part of this with me.  We all levelled up in a pretty big way for this one.  And as an added bonus, they let me do ground effects on the DC circle!"
+    },
+    {
+        "name": "Horizontal Human Torch",
+        "imageUrl": "https://stl-lc101-may-2022.github.io/js-assignment-4-html-me-something-pjduri/images/bigHorizVapor.jpg",
+        "notes": "The first project on my list is to get back into practice.  Learning how to make the fire come out like that with my head point up was one thing, managing it facing forward like this without singing nose hairs requires some precise pressure control with only the air in my mouth."
+    },
+    {
+        "name": "Doing the Buzzsaw",
+        "imageUrl": "https://stl-lc101-may-2022.github.io/js-assignment-4-html-me-something-pjduri/images/buzzSawGif.gif",
+        "notes": "Getting back into practice with spinning poi is a different game.  It's definitely more of a workout, and my tendency to just lose myself while I practice is something my shoulders often complain about."
+    },
+    {
+        "name": "Fire Safety",
+        "imageUrl": "https://stl-lc101-may-2022.github.io/js-assignment-4-html-me-something-pjduri/images/firstAidFuel.jpg",
+        "notes": "And always remember: Safety Third!"
+    }
+]
