@@ -48,4 +48,6 @@
 
 .imageUpdates {
   object-fit: contain;
+  margin-top: 3rem;
+  max-height: 15rem;
 }
